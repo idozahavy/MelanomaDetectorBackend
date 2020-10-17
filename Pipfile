@@ -1,8 +1,13 @@
 [[source]]
 
 url = "https://pypi.python.org/simple"
-#verify_ssl = true
+verify_ssl = true
 name = "pypi"
+
+[requires]
+
+python_version = "3.6.12"
+pip = "19.3"
 
 [packages]
 
@@ -12,9 +17,6 @@ Pillow = "==7.2.0"
 flask_cors = "==3.0.9"
 keras = "==2.4.3"
 tensorflow = "==1.14.0"
-opencv-python = ">=4.0.0"
+opencv-python = "==3.4.11.43"
 numpy = ">=1.0.0"
 
-[requires]
-
-python_version = "3.6.12"
